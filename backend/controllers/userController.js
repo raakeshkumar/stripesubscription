@@ -1,5 +1,5 @@
 const stripe = require("stripe")(
-  "sk_test_51FyMShLQAYB7O7UfjPmfDfcMT0jZ2VEjdmPjffIYoNNC7N93oOJv187sfEpoyHMYW2A6Fe7qQaeTTwMdPUaaAxRo00ZW5m5e0S"
+  "YOUR_KEY_HERE"
 );
 exports.createUser = async (req, res) => {
   console.log(req.body);
